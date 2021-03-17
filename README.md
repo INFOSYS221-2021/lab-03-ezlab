@@ -2,10 +2,8 @@
 
 ## Names
 
-Jack McGrath
-
-Amos Lou
-
-Olivia Joe-West
+* Jack McGrath
+* Amos Lou
+* Olivia Joe-West
 
 ## Task
