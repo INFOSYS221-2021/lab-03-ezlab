@@ -20,7 +20,7 @@ SET word backwards
 GET word or sentence<br>
 INIT new word<br>
 FOR every letter in the word backwards<br>
-  ADD the letter to new word<br>
+   ADD the letter to new word<br>
 
 #### V3
 GET word or sentence<br>
