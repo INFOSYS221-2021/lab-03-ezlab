@@ -13,23 +13,32 @@ Write the pseudocode instructions for the following:
 Given a word or a sentence, display the given word/sentence in reverse order.
 
 #### V1
+
+```
 GET word or sentence
 SET word backwards
+```
 
 #### V2
+
+```
 GET word or sentence
 INIT new word
 FOR every letter in the word backwards
    ADD the letter to new word
+```
 
 #### V3
+
+```
 GET word or sentence
 INIT new word
 FOR every character in word
   IF character index is bigger or equal than 0
     SET new word to new word + character at the character index
     SET charcter index to -1
-  
+    
+ ```
 ## Exercise Four
 
 #### V1
