@@ -6,6 +6,6 @@ Jack McGrath
 
 Amos Lou
 
-Ollie Joe-West
+Olivia Joe-West
 
 ## Task
