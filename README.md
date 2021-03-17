@@ -37,7 +37,7 @@ GET numbers<br>
 COMPUTE greatest common divisor<br>
 
 #### V2
-START
+START<br>
 GET numbers<br>
 SET num1 to one of the numbers<br>
 SET num2 to the other number<br>
