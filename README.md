@@ -53,19 +53,19 @@ ENDFOR<br>
 END<br>
 
 ```
-START<br>
-GET numbers<br>
-SET num1 to one of the numbers<br>
-SET num2 to the other number<br>
-SET smallest to the minimum of num1 and num2<br>
-FOR every number between 1 and smallest<br>
-  IF num1 MOD the number == 0 and num2 MOD the number == 0<br>
-    SET commonDivisor to the number<br>
-  ENDIF<br>
-  ELSE<br>
-    SET commonDivisor to 1<br> 
-ENDELSE<br>
-ENDFOR<br>
-END<br>
+START
+GET numbers
+SET num1 to one of the numbers
+SET num2 to the other number
+SET smallest to the minimum of num1 and num2
+FOR every number between 1 and smallest
+  IF num1 MOD the number == 0 and num2 MOD the number == 0
+    SET commonDivisor to the number
+  ENDIF
+  ELSE
+    SET commonDivisor to 1 
+   ENDELSE
+ENDFOR
+END
 ```
   
