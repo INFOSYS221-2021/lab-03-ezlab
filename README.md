@@ -40,15 +40,9 @@ COMPUTE greatest common divisor<br>
 GET numbers<br>
 SET num1 to one of the numbers<br>
 SET num2 to the other number<br>
-
-
-#### V3
-GET numbers<br>
-SET num1 to one of the numbers<br>
-SET num2 to the other number<br>
 SET smallest to the minimum of num1 and num2<br>
 FOR every number between 1 and smallest<br>
-  IF num1 % the number == 0 and num2 % the number == 0<br>
+  IF num1 MOD the number == 0 and num2 % the number == 0<br>
     SET commonDivisor to the number<br>
   ELSE<br>
     SET commonDivisor to 1<br>
