@@ -48,6 +48,7 @@ FOR every number between 1 and smallest<br>
   ENDIF<br>
   ELSE<br>
     SET commonDivisor to 1<br> 
+ENDELSE<br>
 ENDFOR<br>
 END<br>
     
