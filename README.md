@@ -45,10 +45,10 @@ SET smallest to the minimum of num1 and num2<br>
 FOR every number between 1 and smallest<br>
   IF num1 MOD the number == 0 and num2 MOD the number == 0<br>
     SET commonDivisor to the number<br>
-  ENDIF
+  ENDIF<br>
   ELSE<br>
     SET commonDivisor to 1<br> 
-ENDFOR
-END
+ENDFOR<br>
+END<br>
     
   
