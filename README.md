@@ -55,14 +55,11 @@ START
 GET numbers
 SET num1 to one of the numbers
 SET num2 to the other number
-SET smallest to the minimum of num1 and num2
-FOR every number between 1 and smallest
+SET smallest to the smallest number
+FOR every number between 1 and the smallest number
   IF num1 and num2 are divisable
     SET commonDivisor to the number
   ENDIF
-  ELSE
-    SET commonDivisor to 1 
-   ENDELSE
 ENDFOR
 END
 
@@ -77,12 +74,9 @@ SET num1 to one of the numbers
 SET num2 to the other number
 SET smallest to the minimum of num1 and num2
 FOR every number between 1 and smallest
-  IF num1 MOD the number == 0 and num2 MOD the number == 0
+  IF num1 MOD the number equals 0 and num2 MOD the number equals 0
     SET commonDivisor to the number
   ENDIF
-  ELSE
-    SET commonDivisor to 1 
-   ENDELSE
 ENDFOR
 END
 ```
